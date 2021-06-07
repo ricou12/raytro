@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@400;500;700&display=swap');
+
+PRIMARY = #311485
+LIGHT = #EEEEEE
+DARK = #464646
+
+GOOD = #4D9A9F
+BAD = #9F4D5C
+
+
+* {
+  font-family 'M PLUS Rounded 1c', sans-serif
+  color DARK
+  text-align left
+  font-weight 700
+  font-size 14px
+}
+
+body {
+  background PRIMARY
+}
+
+h1, h2, h3, h4 {
+  color color2
+}
+h1 {
+  font-size 2em
+}
+h2 {
+  font-size 1.4em
+}
+
+label {
+  width 200px
+  display block
+  padding 5px 0
+}
+
+input {
+  padding: 5px 0;
+  width 200px
+  border: 0
+  background transparent
+  border-bottom 1px solid #A8A8A8
+  color #A8A8A8
+  font-weight 500
+}
+.button {
+  padding 12px
+  text-align center
+  font-size  1em
+  border: 0
+  border-radius 2px
+  margin 5px 0
+  cursor pointer
+  transition opacity 0.3s ease
+}
+.button:hover {
+  transition opacity 0.3s ease
+  opacity .85
+}
+.cta.button {
+  background: #146785;
+  color #fff
+}
+.text.button {
+  background transparent
+  color #BFBFBF
+}
+
+
+.shadowed {
+  box-shadow: 4px 4px 64px rgba(66, 66, 66, 0.25)
+}
+
+
+.grid {
+  display grid
+  grid-template-columns repeat(12, 1fr)
+  grid-column-gap 20px
+}
+.s1 { grid-column-end: span 1}
+.s2 { grid-column-end: span 2}
+.s3 { grid-column-end: span 3}
+.s4 { grid-column-end: span 4}
+.s5 { grid-column-end: span 5}
+.s6 { grid-column-end: span 6}
+.s7 { grid-column-end: span 7}
+.s8 { grid-column-end: span 8}
+.s9 { grid-column-end: span 9}
+.s10 { grid-column-end: span 10}
+.s11 { grid-column-end: span 11}
+.s12 { grid-column-end: span 12}
+
+
+.control.button {
+  background transparent
+  padding 20px
+  margin 0
+}
+.control.button:hover {
+  background #ddd
+
+}

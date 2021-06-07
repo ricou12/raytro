@@ -1,0 +1,5 @@
+.idea
+node_modules
+docker-compose.yml
+id_rsa
+id_rsa.pub
